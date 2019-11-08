@@ -11,5 +11,17 @@
 
     <artifactId>war</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>vercauteren.laurens</groupId>
+            <artifactId>api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>vercauteren.laurens</groupId>
+            <artifactId>domain</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
