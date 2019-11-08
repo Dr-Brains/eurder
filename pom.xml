@@ -6,6 +6,8 @@
     <modules>
         <module>api</module>
         <module>domain</module>
+        <module>service</module>
+        <module>war</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -17,7 +19,7 @@
     <artifactId>eurder</artifactId>
     <version>0.0.1</version>
     <name>eurder</name>
-    <description>Innovative order managment application</description>
+    <description>Innovative order management application</description>
 
     <properties>
         <java.version>11</java.version>
